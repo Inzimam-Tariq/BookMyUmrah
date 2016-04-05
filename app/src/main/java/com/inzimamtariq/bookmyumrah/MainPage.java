@@ -18,7 +18,7 @@ public class MainPage extends AppCompatActivity {
     private TabLayout tabLayout;
     private ViewPager viewPager;
 
-    // code init here kjalkjalkj kajlkja jaioeuio uye hs lj
+//jaklsdj kljalj ioasjou
 
 
     @Override
