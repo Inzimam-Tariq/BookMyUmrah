@@ -7,6 +7,8 @@
     <dimen name="img_margin">2dp</dimen>
     <dimen name="user_size">15dp</dimen>
     <dimen name="standard_margin">5dp</dimen>
+    
+    <dimen name="hajj_fields_margin">10dp</dimen>
 
     <dimen name="tab_max_width">264dp</dimen>
     <dimen name="tab_padding_bottom">16dp</dimen>

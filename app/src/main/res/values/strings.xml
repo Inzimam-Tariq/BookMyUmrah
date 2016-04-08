@@ -11,10 +11,48 @@
         MainActivityWithNavigationDrawer
     </string>
 
+    <string name="hajj_heading">Pre Hajj Registration 2016</string>
+    <string name="hajj_description">he first to get all the information you require and register for Hajj 2016 now! All Hajj 2016 packages are reserved on a first come first serve basis.
+Plan ahead with BookMyUmrah.pk
+Reserve priority seating now for the Hajj 2016 Campaign.</string>
+    <string name="h_person_name">Name (required)</string>
+    <string name="h_person_cell">Cell Number (required)</string>
+    <string name="h_cell_hint">e.g 03331234567</string>
+    <string name="h_person_mail">Email</string>
+    <string name="h_mail_hint">e.g bookmyumrah@gmail.com</string>
+    <string name="h_depart_city">Departure City</string>
+    <string name="h_city_opt">Select City…</string>
+    <string name="h_package">Package Class</string>
+    <string name="h_pkg_opt">Select Package…</string>
+    <string name="h_adult">Adult</string>
+    <string name="h_infant">Infant</string>
+    <string name="h_child">Child</string>
+    <string name="h_msg">Message (Optional)</string>
+    <string name="h_submit_btn">Register</string>
+
+    <string name="h_contact_lbl">Call Anytime And Get A Quote</string>
+    <string name="h_contact_no">0321–1111–268</string>
+
+    <string-array name="cities_list">
+        <item>Lahore</item>
+        <item>Islamabad</item>
+        <item>Karachi</item>
+        <item>Sialkot</item>
+        <item>Multan</item>
+        <item>Peshawar</item>
+        <item>Quetta</item>
+        <item>Mardan</item>
+    </string-array>
+
+    <string name="hello_blank_fragment1">This is Umrah fragment</string>
+    <string name="hello_blank_fragment2">This is Hajj fragment</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_activity_main_page">MainPage</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_hajj_registeration">HajjRegisteration</string>
 </resources>
