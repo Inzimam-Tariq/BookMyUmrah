@@ -6,12 +6,6 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.inzimamtariq.bookmyumrah.start">
-    <!--tools:showIn="@layout/activity_start">-->
-    <!--<RelativeLayout-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="300dp"-->
-        <!--android:background="@drawable/logo_hd_final">-->
-
-    <!--</RelativeLayout>-->
+    
 
 </RelativeLayout>

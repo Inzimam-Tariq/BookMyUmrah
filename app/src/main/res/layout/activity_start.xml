@@ -23,18 +23,53 @@
     <!--</android.support.design.widget.AppBarLayout>-->
 
     <!--<include layout="@layout/content_start" />-->
-    <RelativeLayout
+
+    <FrameLayout
+        android:id="@+id/splash_graphics_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:background="@drawable/logo_hd_final"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:gravity="center_vertical|center_horizontal|center">
-        </RelativeLayout>
-    </RelativeLayout>
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/splash_logo"
+            android:layout_gravity="center"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/versionCon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="bottom|center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:text="@string/version"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="@string/copyright"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"
+                android:text="@string/rights"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
 
     <!--<android.support.design.widget.FloatingActionButton-->
         <!--android:id="@+id/fab"-->

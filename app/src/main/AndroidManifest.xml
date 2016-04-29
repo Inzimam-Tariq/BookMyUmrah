@@ -40,6 +40,10 @@
         <activity
             android:name=".HajjRegistration"
             android:label="@string/title_activity_hajj_registeration"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search"
             android:theme="@style/MyMaterialTheme"></activity>
     </application>
 

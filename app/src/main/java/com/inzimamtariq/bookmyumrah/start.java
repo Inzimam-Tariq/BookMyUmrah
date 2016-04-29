@@ -2,15 +2,14 @@ package com.inzimamtariq.bookmyumrah;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 
 public class start extends AppCompatActivity {
 
-    Thread thread;
+    Thread activityThread, graphicThread;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +18,36 @@ public class start extends AppCompatActivity {
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
 
-         thread = new Thread() {
+        final FrameLayout containerFrame = (FrameLayout) findViewById(R.id.splash_graphics_container);
+//        final LinearLayout logFrame = (LinearLayout) findViewById(R.id.logoCon);
+        final LinearLayout conFrame = (LinearLayout) findViewById(R.id.versionCon);
+
+        graphicThread = new Thread() {
+            public void run() {
+
+                try {
+                    sleep(1500);
+
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+//                } finally{
+//                    Toast.makeText(getApplicationContext(), "Good to Go", Toast.LENGTH_SHORT).show();
+////                    logFrame.setVisibility(View.VISIBLE);
+////                    conFrame.setVisibility(View.VISIBLE);
+                }
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            if (containerFrame != null) {
+                                containerFrame.setVisibility(View.VISIBLE);
+                            }
+                        }
+                    });
+            }
+        };
+        graphicThread.start();
+
+         activityThread = new Thread() {
             public void run() {
 
                 try {
@@ -32,7 +60,7 @@ public class start extends AppCompatActivity {
                 }
             }
         };
-        thread.start();
+        activityThread.start();
 
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
@@ -53,12 +81,12 @@ public class start extends AppCompatActivity {
     @Override
     protected void onRestart() {
         super.onRestart();
-//        thread.start();
+//        activityThread.start();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-//        thread.start();
+//        activityThread.start();
     }
 }

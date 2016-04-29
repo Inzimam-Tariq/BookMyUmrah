@@ -11,6 +11,19 @@
         MainActivityWithNavigationDrawer
     </string>
 
+    <string name="splash_msg">Best Place to Find Peaceful Pilgrimage Packages</string>
+    <string name="version">version 1.1.0</string>
+    <string name="copyright">Copyrights 2015 BookMyUmrah.pk</string>
+    <string name="rights">All Rights Reserved</string>
+    <string name="h_stay">Stay - No of Days</string>
+    <string name="h_stay_f">Select Days</string>
+    <string name="h_pkg">Package Class</string>
+    <string name="h_pkg_f">Select Class</string>
+    <string name="h_pkg_loc">Package Location</string>
+    <string name="h_pkg_loc_f">Select City</string>
+    <string name="h_pkg_price">Package Price</string>
+    <string name="h_pkg_price_f">Select Price</string>
+
     <string name="hajj_heading">Pre Hajj Registration 2016</string>
     <string name="hajj_description">he first to get all the information you require and register for Hajj 2016 now! All Hajj 2016 packages are reserved on a first come first serve basis.
 Plan ahead with BookMyUmrah.pk
@@ -25,6 +38,7 @@ Reserve priority seating now for the Hajj 2016 Campaign.</string>
     <string name="h_package">Package Class</string>
     <string name="h_pkg_opt">Select Package…</string>
     <string name="h_adult">Adult</string>
+    <string name="h_persons">Select Persons</string>
     <string name="h_infant">Infant</string>
     <string name="h_child">Child</string>
     <string name="h_msg">Message (Optional)</string>
@@ -34,6 +48,7 @@ Reserve priority seating now for the Hajj 2016 Campaign.</string>
     <string name="h_contact_no">0321–1111–268</string>
 
     <string-array name="cities_list">
+        <item>Select City</item>
         <item>Lahore</item>
         <item>Islamabad</item>
         <item>Karachi</item>
@@ -42,6 +57,46 @@ Reserve priority seating now for the Hajj 2016 Campaign.</string>
         <item>Peshawar</item>
         <item>Quetta</item>
         <item>Mardan</item>
+    </string-array>
+
+    <string-array name="packages_list">
+        <item>Select Package</item>
+        <item>9 Nights 5 Star</item>
+        <item>15 Nights 5 Star</item>
+        <item>15 Nights 4 Star</item>
+        <item>21 Nights 5 Star</item>
+        <item>21 Nights Economy</item>
+        <item>15 Nights 2 Star</item>
+        <item>12 Nights Economy Plus</item>
+        <item>18 Nights 3 Star</item>
+    </string-array>
+
+    <string-array name="person_list">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
     </string-array>
 
     <string name="hello_blank_fragment1">This is Umrah fragment</string>
@@ -55,4 +110,5 @@ Reserve priority seating now for the Hajj 2016 Campaign.</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_sign_up">SignUp</string>
     <string name="title_activity_hajj_registeration">HajjRegisteration</string>
+    <string name="title_activity_search">Search</string>
 </resources>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/fab_margin"
+    android:paddingLeft="@dimen/fab_margin"
+    android:paddingRight="@dimen/fab_margin"
+    android:paddingTop="@dimen/fab_margin"
+    android:background="@drawable/back"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inzimamtariq.bookmyumrah.Search"
+    tools:showIn="@layout/activity_search">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_hotel_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/normal_margin"
+            android:layout_marginStart="@dimen/normal_margin"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold"
+            android:text="@string/h_stay"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_margin">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_field"
+                android:text="Select Days"/>
+            <!--<Spinner-->
+                <!--android:id="@+id/packag"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/back_field"-->
+                <!--android:layout_marginTop="@dimen/normal_margin"-->
+                <!--android:prompt="@string/h_pkg_opt"/>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_margin">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_hotel_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/normal_margin"
+            android:layout_marginStart="@dimen/normal_margin"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold"
+            android:text="@string/h_pkg"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_margin">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:id="@+id/packages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_field"
+                android:prompt="@string/h_pkg_opt"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+        </FrameLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_margin">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_hotel_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/normal_margin"
+            android:layout_marginStart="@dimen/normal_margin"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold"
+            android:text="@string/h_pkg_loc"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_margin">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/cities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_field"
+            android:prompt="@string/h_city_opt"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+    </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_margin">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_hotel_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/normal_margin"
+            android:layout_marginStart="@dimen/normal_margin"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold"
+            android:text="@string/h_pkg_price"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_margin">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_field"
+                android:text="Select Price"/>
+            <!--<Spinner-->
+                <!--android:id="@+id/packa"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/back_field"-->
+                <!-- -->
+                <!--android:prompt="@string/h_pkg_opt"/>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center"
+                android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/white"
+        android:text="Search"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

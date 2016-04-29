@@ -9,7 +9,6 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 public class HajjRegistration extends AppCompatActivity {
 
@@ -79,7 +78,7 @@ public class HajjRegistration extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
-                Toast.makeText(getApplicationContext(), "Your Item Position is : " + position, Toast.LENGTH_LONG).show();
+//                Toast.makeText(getApplicationContext(), "Your Item Position is : " + position, Toast.LENGTH_LONG).show();
             }
 
             @Override
@@ -98,7 +97,7 @@ public class HajjRegistration extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
-                Toast.makeText(getApplicationContext(), "Your Item Position is : " + position, Toast.LENGTH_LONG).show();
+//                Toast.makeText(getApplicationContext(), "Your Item Position is : " + position, Toast.LENGTH_LONG).show();
             }
 
             @Override
@@ -117,7 +116,7 @@ public class HajjRegistration extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
-                Toast.makeText(getApplicationContext(), "Your Item Position is : " + position, Toast.LENGTH_LONG).show();
+//                Toast.makeText(getApplicationContext(), "Your Item Position is : " + position, Toast.LENGTH_LONG).show();
             }
 
             @Override
@@ -136,7 +135,7 @@ public class HajjRegistration extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
-                Toast.makeText(getApplicationContext(), "Your Item Position is : " + position, Toast.LENGTH_LONG).show();
+//                Toast.makeText(getApplicationContext(), "Your Item Position is : " + position, Toast.LENGTH_LONG).show();
             }
 
             @Override
@@ -156,7 +155,7 @@ public class HajjRegistration extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
-                Toast.makeText(getApplicationContext(), "Your Item Position is : " + position, Toast.LENGTH_LONG).show();
+//                Toast.makeText(getApplicationContext(), "Your Item Position is : " + position, Toast.LENGTH_LONG).show();
             }
 
             @Override
@@ -193,8 +192,6 @@ public class HajjRegistration extends AppCompatActivity {
 //        npAdult = (NumberPicker) findViewById(R.id.adult);
 //        npInfant = (NumberPicker) findViewById(R.id.infant);
 //        npChild = (NumberPicker) findViewById(R.id.child);
-
-
     }
 
 }
