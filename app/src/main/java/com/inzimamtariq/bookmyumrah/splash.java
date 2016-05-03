@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-public class start extends AppCompatActivity {
+public class splash extends AppCompatActivity {
 
     Thread activityThread, graphicThread;
 
@@ -81,12 +81,12 @@ public class start extends AppCompatActivity {
     @Override
     protected void onRestart() {
         super.onRestart();
-//        activityThread.start();
+//        activityThread.splash();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-//        activityThread.start();
+//        activityThread.splash();
     }
 }

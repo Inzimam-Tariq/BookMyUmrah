@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".start"
+            android:name=".splash"
             android:label="@string/title_activity_start">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
